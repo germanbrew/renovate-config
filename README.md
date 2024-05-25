@@ -1,6 +1,6 @@
 # Renovate Config Presets
 
-[![Lint](https://github.com/maki-it/renovate-config/actions/workflows/lint.yaml/badge.svg)](https://github.com/maki-it/renovate-config/actions/workflows/lint.yaml)
+[![Lint](https://github.com/germanbrew/renovate-config/actions/workflows/lint.yaml/badge.svg)](https://github.com/germanbrew/renovate-config/actions/workflows/lint.yaml)
 
 A collection of custom Renovate config presets to be used by Maki IT repos.
 
@@ -22,7 +22,7 @@ The presets found in this repo make use of [JSON5](https://json5.org/) so that c
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>maki-it/renovate-config:default.json5"
+    "github>germanbrew/renovate-config:default.json5"
   ],
 }
 ```
@@ -33,8 +33,8 @@ The presets found in this repo make use of [JSON5](https://json5.org/) so that c
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>maki-it/renovate-config:default.json5",
-    "github>maki-it/renovate-config:lang-python.json5"
+    "github>germanbrew/renovate-config:default.json5",
+    "github>germanbrew/renovate-config:lang-python.json5"
   ]
 }
 ```

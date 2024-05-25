@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "github>maki-it/renovate-config:default.json5"
+    "github>germanbrew/renovate-config:default.json5"
   ]
 }
